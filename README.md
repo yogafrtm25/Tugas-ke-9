@@ -1,3 +1,4 @@
+###Tugas Pertemuan 9
 
 Nama : Yoga Pratama 
 
@@ -77,7 +78,8 @@ print("Menggabung List B dengan A       :",b) #Menggabungkan list B dan A
     
 2. Hasil Run
 
-![Run Menginput nilai 5 elemen](https://user-images.githubusercontent.com/115678171/203446301-9c83c044-6c45-4077-91e3-50b90cfa9acb.png)
+![Run Menginput nilai 5 elemen](https://user-images.githubusercontent.com/115678171/203456224-2277b88d-354c-42fb-a459-32ead3fa07a1.png)
+
 
 ## Nilai Mahasiswa
 Buat program sederhana untuk menambahkan data kedalam sebuah list dengan rincian sebagai berikut :
@@ -92,36 +94,38 @@ Buat program sederhana untuk menambahkan data kedalam sebuah list dengan rincian
 #### Langkah-langkah :
 1. Buat programnya terlebih dahulu seperti gambar di bawah ini
 
-![Nilai mahasiswa ](https://user-images.githubusercontent.com/115678171/203446485-233d3cdd-e0a4-4258-bc74-e082de91af4c.png)
+![Nilai mahasiswa ](https://user-images.githubusercontent.com/115678171/203456281-39cec7ae-7bf3-4527-980e-e47417eedd84.png)
 
+```
 # Membuat Tugas Praktikum
 data =[]
 while True :
-nama       = input    ("Nama        : ")
-nim        = input    ("NIM         : ")
-tugas      = int(input("Nilai Tugas : "))
-uts        = int(input("Nilai UTS   : "))
-uas        = int(input("Nilai UAS   : "))
-nilaiakhir = float(tugas)*30/100+(uts)*35/100+(uas)*35/100
-data.append([nama,nim,tugas,uts,uas,nilaiakhir])
-lagi= input("Tambah data (ya/tidak)? ")
-if lagi.lower() =="tidak":
- break
+    nama       = input    ("Nama        : ")
+    nim        = input    ("NIM         : ")
+    tugas      = int(input("Nilai Tugas : "))
+    uts        = int(input("Nilai UTS   : "))
+    uas        = int(input("Nilai UAS   : "))
+    nilaiakhir = float(tugas)*30/100+(uts)*35/100+(uas)*35/100
+    data.append([nama,nim,tugas,uts,uas,nilaiakhir])
+    lagi= input("Tambah data (ya/tidak)? ")
+    if lagi.lower() =="tidak":
+        break
 
 
-    print("=====================================================================================");
-    print("|  No  |     Nama     |     NIM     |   Tugas   |   UTS   |   UAS   |  Nilai Akhir  |");
-    print("=====================================================================================");
-    i=0
-    for x in data:
-        i+=1
-        print("|  {6:2}  |  {0:10}  |  {1:9}  |  {2:7}  |  {3:5}  | {4:6}  |  {5:11.2f}  |"\
-              .format (x[0][:9] , x[1][:9],x[2],x[3],x[4],x[5], i))
-    print("=====================================================================================");
-    
+print("=====================================================================================");
+print("|  No  |     Nama     |     NIM     |   Tugas   |   UTS   |   UAS   |  Nilai Akhir  |");
+print("=====================================================================================");
+i=0
+for x in data:
+    i+=1
+    print("|  {6:2}  |  {0:20}  |  {1:9}  |  {2:7}  |  {3:5}  | {4:6}  |  {5:11.2f}  |"\
+          .format (x[0][:20 ] , x[1][:9],x[2],x[3],x[4],x[5], i))
+print("=====================================================================================");
+````
+
 2. Hasil Run
 
-![Screenshot (168)](https://user-images.githubusercontent.com/115867244/202901652-176749d1-4596-4aaf-97e2-9089ef153fc8.png)
+![RUN Nilai mahasiswa](https://user-images.githubusercontent.com/115678171/203456588-8a677656-6a02-4fb5-9501-ecbaf1ee0208.png)
 
 
 ### Penjelasan Program :
@@ -134,8 +138,8 @@ if lagi.lower() =="tidak":
 7. Lalu cetak dengan perintah print
 8. Selesai
 
-### Flowchart Praktikum 5
+### Flowchart Nilai Mahasiswa
 
-![Gambar WhatsApp 2022-11-20 pukul 21 12 36](https://user-images.githubusercontent.com/115867244/202907083-e47e04a1-78a6-4e86-bba2-c64ae8b4ee04.jpg)
+![Screenshot (119)](https://user-images.githubusercontent.com/115678171/203456633-e8e98ec1-3407-414d-b1a4-0b6a7774f9fb.png)
 
 ### Sekian, Terima kasih 
