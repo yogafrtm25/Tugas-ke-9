@@ -72,6 +72,7 @@ print("Menambah 3 nilai ke list B       :",b) #Menambah list B dengan 3 nilai
 b = [3, 7, 10, 11, 20]
 b = b + a
 print("Menggabung List B dengan A       :",b) #Menggabungkan list B dan A
+
 ```
     
 2. Hasil Run
