@@ -1,4 +1,4 @@
-# Praktikum5
+
 Nama : Yoga Pratama 
 
 NIM : 312210042
@@ -73,7 +73,7 @@ b = [3, 7, 10, 11, 20]
 b = b + a
 print("Menggabung List B dengan A       :",b) #Menggabungkan list B dan A
 
-```
+````
     
 2. Hasil Run
 
